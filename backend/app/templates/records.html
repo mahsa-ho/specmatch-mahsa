@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Records · SpecMatch{% endblock %}
+{% block content %}
+<div class="toolbar">
+  <form method="get" action="/">
+    <label for="category" class="muted">Category</label>
+    <select id="category" name="category" onchange="this.form.submit()">
+      <option value="All" {% if selected_category is none %}selected{% endif %}>All categories</option>
+      {% for cat in categories %}
+      <option value="{{ cat }}" {% if selected_category == cat %}selected{% endif %}>{{ cat }}</option>
+      {% endfor %}
+    </select>
+    <noscript><button type="submit">Apply</button></noscript>
+  </form>
+  <span class="muted">{{ records | length }} record(s)</span>
+</div>
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Source text</th>
+      <th>Category</th>
+      <th>Unit</th>
+      <th>Quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for r in records %}
+    <tr>
+      <td><code>{{ r.record_id }}</code></td>
+      <td><code>{{ r.raw_text }}</code></td>
+      <td>{{ r.category or "—" }}</td>
+      <td>{{ r.unit or "—" }}</td>
+      <td>{{ r.quantity or "—" }}</td>
+    </tr>
+    {% else %}
+    <tr><td colspan="5" class="muted">No records.</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

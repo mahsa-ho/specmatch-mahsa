@@ -1,0 +1,801 @@
+catalog_id,description,category,unit
+CAT-0001,"Ready-mix concrete, 20 MPa",Concrete,m3
+CAT-0002,"Ready-mix concrete, 20 MPa, 15% fly ash",Concrete,m3
+CAT-0003,"Ready-mix concrete, 20 MPa, 25% fly ash",Concrete,m3
+CAT-0004,"Ready-mix concrete, 20 MPa, 35% fly ash",Concrete,m3
+CAT-0005,"Ready-mix concrete, 20 MPa, 25% slag",Concrete,m3
+CAT-0006,"Ready-mix concrete, 20 MPa, 50% slag",Concrete,m3
+CAT-0007,"Ready-mix concrete, 25 MPa",Concrete,m3
+CAT-0008,"Ready-mix concrete, 25 MPa, 15% fly ash",Concrete,m3
+CAT-0009,"Ready-mix concrete, 25 MPa, 25% fly ash",Concrete,m3
+CAT-0010,"Ready-mix concrete, 25 MPa, 35% fly ash",Concrete,m3
+CAT-0011,"Ready-mix concrete, 25 MPa, 25% slag",Concrete,m3
+CAT-0012,"Ready-mix concrete, 25 MPa, 50% slag",Concrete,m3
+CAT-0013,"Ready-mix concrete, 30 MPa",Concrete,m3
+CAT-0014,"Ready-mix concrete, 30 MPa, 15% fly ash",Concrete,m3
+CAT-0015,"Ready-mix concrete, 30 MPa, 25% fly ash",Concrete,m3
+CAT-0016,"Ready-mix concrete, 30 MPa, 35% fly ash",Concrete,m3
+CAT-0017,"Ready-mix concrete, 30 MPa, 25% slag",Concrete,m3
+CAT-0018,"Ready-mix concrete, 30 MPa, 50% slag",Concrete,m3
+CAT-0019,"Ready-mix concrete, 35 MPa",Concrete,m3
+CAT-0020,"Ready-mix concrete, 35 MPa, 15% fly ash",Concrete,m3
+CAT-0021,"Ready-mix concrete, 35 MPa, 25% fly ash",Concrete,m3
+CAT-0022,"Ready-mix concrete, 35 MPa, 35% fly ash",Concrete,m3
+CAT-0023,"Ready-mix concrete, 35 MPa, 25% slag",Concrete,m3
+CAT-0024,"Ready-mix concrete, 35 MPa, 50% slag",Concrete,m3
+CAT-0025,"Ready-mix concrete, 40 MPa",Concrete,m3
+CAT-0026,"Ready-mix concrete, 40 MPa, 15% fly ash",Concrete,m3
+CAT-0027,"Ready-mix concrete, 40 MPa, 25% fly ash",Concrete,m3
+CAT-0028,"Ready-mix concrete, 40 MPa, 35% fly ash",Concrete,m3
+CAT-0029,"Ready-mix concrete, 40 MPa, 25% slag",Concrete,m3
+CAT-0030,"Ready-mix concrete, 40 MPa, 50% slag",Concrete,m3
+CAT-0031,"Ready-mix concrete, 45 MPa",Concrete,m3
+CAT-0032,"Ready-mix concrete, 45 MPa, 15% fly ash",Concrete,m3
+CAT-0033,"Ready-mix concrete, 45 MPa, 25% fly ash",Concrete,m3
+CAT-0034,"Ready-mix concrete, 45 MPa, 35% fly ash",Concrete,m3
+CAT-0035,"Ready-mix concrete, 45 MPa, 25% slag",Concrete,m3
+CAT-0036,"Ready-mix concrete, 45 MPa, 50% slag",Concrete,m3
+CAT-0037,"Ready-mix concrete, 50 MPa",Concrete,m3
+CAT-0038,"Ready-mix concrete, 50 MPa, 15% fly ash",Concrete,m3
+CAT-0039,"Ready-mix concrete, 50 MPa, 25% fly ash",Concrete,m3
+CAT-0040,"Ready-mix concrete, 50 MPa, 35% fly ash",Concrete,m3
+CAT-0041,"Ready-mix concrete, 50 MPa, 25% slag",Concrete,m3
+CAT-0042,"Ready-mix concrete, 50 MPa, 50% slag",Concrete,m3
+CAT-0043,"Lean concrete fill, 15 MPa",Concrete,m3
+CAT-0044,"Shotcrete, 35 MPa, fibre reinforced",Concrete,m3
+CAT-0045,"Grout, non-shrink, cementitious",Concrete,kg
+CAT-0046,"Concrete topping, 32 MPa, 50 mm",Concrete,m2
+CAT-0047,"Reinforcing steel bar, 10M, Grade 400W",Reinforcement,kg
+CAT-0048,"Reinforcing steel bar, 10M, Grade 400W, epoxy coated",Reinforcement,kg
+CAT-0049,"Reinforcing steel bar, 15M, Grade 400W",Reinforcement,kg
+CAT-0050,"Reinforcing steel bar, 15M, Grade 400W, epoxy coated",Reinforcement,kg
+CAT-0051,"Reinforcing steel bar, 20M, Grade 400W",Reinforcement,kg
+CAT-0052,"Reinforcing steel bar, 20M, Grade 400W, epoxy coated",Reinforcement,kg
+CAT-0053,"Reinforcing steel bar, 25M, Grade 400W",Reinforcement,kg
+CAT-0054,"Reinforcing steel bar, 25M, Grade 400W, epoxy coated",Reinforcement,kg
+CAT-0055,"Reinforcing steel bar, 30M, Grade 400W",Reinforcement,kg
+CAT-0056,"Reinforcing steel bar, 30M, Grade 400W, epoxy coated",Reinforcement,kg
+CAT-0057,"Reinforcing steel bar, 35M, Grade 400W",Reinforcement,kg
+CAT-0058,"Reinforcing steel bar, 35M, Grade 400W, epoxy coated",Reinforcement,kg
+CAT-0059,"Welded wire mesh, 152x152 MW9.1",Reinforcement,m2
+CAT-0060,"Welded wire mesh, 152x152 MW13.3",Reinforcement,m2
+CAT-0061,"Welded wire mesh, 102x102 MW9.1",Reinforcement,m2
+CAT-0062,"Steel HSS 2x2x1/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0063,"Steel HSS 2x2x3/16, ASTM A500 Grade C",Structural Steel,kg
+CAT-0064,"Steel HSS 2x2x1/4, ASTM A500 Grade C",Structural Steel,kg
+CAT-0065,"Steel HSS 2x2x3/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0066,"Steel HSS 2x2x1/2, ASTM A500 Grade C",Structural Steel,kg
+CAT-0067,"Steel HSS 3x3x1/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0068,"Steel HSS 3x3x3/16, ASTM A500 Grade C",Structural Steel,kg
+CAT-0069,"Steel HSS 3x3x1/4, ASTM A500 Grade C",Structural Steel,kg
+CAT-0070,"Steel HSS 3x3x3/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0071,"Steel HSS 3x3x1/2, ASTM A500 Grade C",Structural Steel,kg
+CAT-0072,"Steel HSS 4x4x1/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0073,"Steel HSS 4x4x3/16, ASTM A500 Grade C",Structural Steel,kg
+CAT-0074,"Steel HSS 4x4x1/4, ASTM A500 Grade C",Structural Steel,kg
+CAT-0075,"Steel HSS 4x4x3/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0076,"Steel HSS 4x4x1/2, ASTM A500 Grade C",Structural Steel,kg
+CAT-0077,"Steel HSS 5x5x1/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0078,"Steel HSS 5x5x3/16, ASTM A500 Grade C",Structural Steel,kg
+CAT-0079,"Steel HSS 5x5x1/4, ASTM A500 Grade C",Structural Steel,kg
+CAT-0080,"Steel HSS 5x5x3/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0081,"Steel HSS 5x5x1/2, ASTM A500 Grade C",Structural Steel,kg
+CAT-0082,"Steel HSS 6x6x1/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0083,"Steel HSS 6x6x3/16, ASTM A500 Grade C",Structural Steel,kg
+CAT-0084,"Steel HSS 6x6x1/4, ASTM A500 Grade C",Structural Steel,kg
+CAT-0085,"Steel HSS 6x6x3/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0086,"Steel HSS 6x6x1/2, ASTM A500 Grade C",Structural Steel,kg
+CAT-0087,"Steel HSS 8x8x1/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0088,"Steel HSS 8x8x3/16, ASTM A500 Grade C",Structural Steel,kg
+CAT-0089,"Steel HSS 8x8x1/4, ASTM A500 Grade C",Structural Steel,kg
+CAT-0090,"Steel HSS 8x8x3/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0091,"Steel HSS 8x8x1/2, ASTM A500 Grade C",Structural Steel,kg
+CAT-0092,"Steel HSS 10x10x1/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0093,"Steel HSS 10x10x3/16, ASTM A500 Grade C",Structural Steel,kg
+CAT-0094,"Steel HSS 10x10x1/4, ASTM A500 Grade C",Structural Steel,kg
+CAT-0095,"Steel HSS 10x10x3/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0096,"Steel HSS 10x10x1/2, ASTM A500 Grade C",Structural Steel,kg
+CAT-0097,"Steel HSS 4x2x1/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0098,"Steel HSS 4x2x3/16, ASTM A500 Grade C",Structural Steel,kg
+CAT-0099,"Steel HSS 4x2x1/4, ASTM A500 Grade C",Structural Steel,kg
+CAT-0100,"Steel HSS 4x2x3/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0101,"Steel HSS 4x2x1/2, ASTM A500 Grade C",Structural Steel,kg
+CAT-0102,"Steel HSS 6x4x1/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0103,"Steel HSS 6x4x3/16, ASTM A500 Grade C",Structural Steel,kg
+CAT-0104,"Steel HSS 6x4x1/4, ASTM A500 Grade C",Structural Steel,kg
+CAT-0105,"Steel HSS 6x4x3/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0106,"Steel HSS 6x4x1/2, ASTM A500 Grade C",Structural Steel,kg
+CAT-0107,"Steel HSS 8x4x1/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0108,"Steel HSS 8x4x3/16, ASTM A500 Grade C",Structural Steel,kg
+CAT-0109,"Steel HSS 8x4x1/4, ASTM A500 Grade C",Structural Steel,kg
+CAT-0110,"Steel HSS 8x4x3/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0111,"Steel HSS 8x4x1/2, ASTM A500 Grade C",Structural Steel,kg
+CAT-0112,"Steel HSS 8x6x1/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0113,"Steel HSS 8x6x3/16, ASTM A500 Grade C",Structural Steel,kg
+CAT-0114,"Steel HSS 8x6x1/4, ASTM A500 Grade C",Structural Steel,kg
+CAT-0115,"Steel HSS 8x6x3/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0116,"Steel HSS 8x6x1/2, ASTM A500 Grade C",Structural Steel,kg
+CAT-0117,"Steel HSS 10x6x1/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0118,"Steel HSS 10x6x3/16, ASTM A500 Grade C",Structural Steel,kg
+CAT-0119,"Steel HSS 10x6x1/4, ASTM A500 Grade C",Structural Steel,kg
+CAT-0120,"Steel HSS 10x6x3/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0121,"Steel HSS 10x6x1/2, ASTM A500 Grade C",Structural Steel,kg
+CAT-0122,"Steel HSS 12x8x1/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0123,"Steel HSS 12x8x3/16, ASTM A500 Grade C",Structural Steel,kg
+CAT-0124,"Steel HSS 12x8x1/4, ASTM A500 Grade C",Structural Steel,kg
+CAT-0125,"Steel HSS 12x8x3/8, ASTM A500 Grade C",Structural Steel,kg
+CAT-0126,"Steel HSS 12x8x1/2, ASTM A500 Grade C",Structural Steel,kg
+CAT-0127,"Steel wide flange beam W150x22, CSA G40.21 350W",Structural Steel,kg
+CAT-0128,"Steel wide flange beam W200x27, CSA G40.21 350W",Structural Steel,kg
+CAT-0129,"Steel wide flange beam W200x36, CSA G40.21 350W",Structural Steel,kg
+CAT-0130,"Steel wide flange beam W250x33, CSA G40.21 350W",Structural Steel,kg
+CAT-0131,"Steel wide flange beam W250x45, CSA G40.21 350W",Structural Steel,kg
+CAT-0132,"Steel wide flange beam W310x39, CSA G40.21 350W",Structural Steel,kg
+CAT-0133,"Steel wide flange beam W310x52, CSA G40.21 350W",Structural Steel,kg
+CAT-0134,"Steel wide flange beam W360x44, CSA G40.21 350W",Structural Steel,kg
+CAT-0135,"Steel wide flange beam W360x57, CSA G40.21 350W",Structural Steel,kg
+CAT-0136,"Steel wide flange beam W410x54, CSA G40.21 350W",Structural Steel,kg
+CAT-0137,"Steel wide flange beam W460x60, CSA G40.21 350W",Structural Steel,kg
+CAT-0138,"Steel wide flange beam W530x66, CSA G40.21 350W",Structural Steel,kg
+CAT-0139,"Steel wide flange beam W610x82, CSA G40.21 350W",Structural Steel,kg
+CAT-0140,"Steel channel C150x12, CSA G40.21 300W",Structural Steel,kg
+CAT-0141,"Steel channel C200x17, CSA G40.21 300W",Structural Steel,kg
+CAT-0142,"Steel channel C250x23, CSA G40.21 300W",Structural Steel,kg
+CAT-0143,"Steel channel C310x31, CSA G40.21 300W",Structural Steel,kg
+CAT-0144,"Steel angle L51x51x6.4, CSA G40.21 300W",Structural Steel,kg
+CAT-0145,"Steel angle L76x76x6.4, CSA G40.21 300W",Structural Steel,kg
+CAT-0146,"Steel angle L102x102x9.5, CSA G40.21 300W",Structural Steel,kg
+CAT-0147,"Steel angle L152x102x9.5, CSA G40.21 300W",Structural Steel,kg
+CAT-0148,"Steel deck, 38 mm, 0.76 mm galvanized",Structural Steel,m2
+CAT-0149,"Steel deck, 76 mm, 0.91 mm galvanized",Structural Steel,m2
+CAT-0150,"Metal stud, 92 mm, 0.84 mm, galvanized",Structural Steel,m
+CAT-0151,"Metal stud, 152 mm, 1.09 mm, galvanized",Structural Steel,m
+CAT-0152,"Gypsum board, 12.7 mm, regular",Gypsum,m2
+CAT-0153,"Gypsum board, 12.7 mm, Type X fire rated",Gypsum,m2
+CAT-0154,"Gypsum board, 12.7 mm, moisture resistant",Gypsum,m2
+CAT-0155,"Gypsum board, 15.9 mm, regular",Gypsum,m2
+CAT-0156,"Gypsum board, 15.9 mm, Type X fire rated",Gypsum,m2
+CAT-0157,"Gypsum board, 15.9 mm, moisture resistant",Gypsum,m2
+CAT-0158,"Gypsum board, 15.9 mm, Type C fire rated",Gypsum,m2
+CAT-0159,"Cement board, 12.7 mm",Gypsum,m2
+CAT-0160,"Shaft liner panel, 25.4 mm, Type X",Gypsum,m2
+CAT-0161,"Dimensional lumber, 38x89 mm, SPF No.2",Wood,m
+CAT-0162,"Dimensional lumber, 38x89 mm, SPF No.2, pressure treated",Wood,m
+CAT-0163,"Dimensional lumber, 38x140 mm, SPF No.2",Wood,m
+CAT-0164,"Dimensional lumber, 38x140 mm, SPF No.2, pressure treated",Wood,m
+CAT-0165,"Dimensional lumber, 38x184 mm, SPF No.2",Wood,m
+CAT-0166,"Dimensional lumber, 38x184 mm, SPF No.2, pressure treated",Wood,m
+CAT-0167,"Dimensional lumber, 38x235 mm, SPF No.2",Wood,m
+CAT-0168,"Dimensional lumber, 38x235 mm, SPF No.2, pressure treated",Wood,m
+CAT-0169,"Dimensional lumber, 38x286 mm, SPF No.2",Wood,m
+CAT-0170,"Dimensional lumber, 38x286 mm, SPF No.2, pressure treated",Wood,m
+CAT-0171,"Plywood sheathing, 12.5 mm, Douglas fir",Wood,m2
+CAT-0172,"OSB sheathing, 12.5 mm",Wood,m2
+CAT-0173,"Plywood sheathing, 15.5 mm, Douglas fir",Wood,m2
+CAT-0174,"OSB sheathing, 15.5 mm",Wood,m2
+CAT-0175,"Plywood sheathing, 18.5 mm, Douglas fir",Wood,m2
+CAT-0176,"OSB sheathing, 18.5 mm",Wood,m2
+CAT-0177,"Glulam beam, 130x304 mm, 24f-E",Wood,m
+CAT-0178,"Glulam beam, 175x456 mm, 24f-E",Wood,m
+CAT-0179,"Cross-laminated timber panel, 175 mm, 5-ply",Wood,m2
+CAT-0180,"LVL beam, 45x302 mm, 2.0E",Wood,m
+CAT-0181,"Batt insulation, fibreglass, R-12",Insulation,m2
+CAT-0182,"Batt insulation, mineral wool, R-12",Insulation,m2
+CAT-0183,"Batt insulation, fibreglass, R-20",Insulation,m2
+CAT-0184,"Batt insulation, mineral wool, R-20",Insulation,m2
+CAT-0185,"Batt insulation, fibreglass, R-22",Insulation,m2
+CAT-0186,"Batt insulation, mineral wool, R-22",Insulation,m2
+CAT-0187,"Batt insulation, fibreglass, R-28",Insulation,m2
+CAT-0188,"Batt insulation, mineral wool, R-28",Insulation,m2
+CAT-0189,"Batt insulation, fibreglass, R-40",Insulation,m2
+CAT-0190,"Batt insulation, mineral wool, R-40",Insulation,m2
+CAT-0191,"Rigid insulation, XPS, 25 mm",Insulation,m2
+CAT-0192,"Rigid insulation, polyiso, 25 mm",Insulation,m2
+CAT-0193,"Rigid insulation, EPS Type 2, 25 mm",Insulation,m2
+CAT-0194,"Rigid insulation, XPS, 50 mm",Insulation,m2
+CAT-0195,"Rigid insulation, polyiso, 50 mm",Insulation,m2
+CAT-0196,"Rigid insulation, EPS Type 2, 50 mm",Insulation,m2
+CAT-0197,"Rigid insulation, XPS, 75 mm",Insulation,m2
+CAT-0198,"Rigid insulation, polyiso, 75 mm",Insulation,m2
+CAT-0199,"Rigid insulation, EPS Type 2, 75 mm",Insulation,m2
+CAT-0200,"Rigid insulation, XPS, 100 mm",Insulation,m2
+CAT-0201,"Rigid insulation, polyiso, 100 mm",Insulation,m2
+CAT-0202,"Rigid insulation, EPS Type 2, 100 mm",Insulation,m2
+CAT-0203,"Spray foam insulation, closed cell, 50 mm",Insulation,m2
+CAT-0204,"Spray foam insulation, closed cell, 75 mm",Insulation,m2
+CAT-0205,"Concrete masonry unit, 140 mm, standard",Masonry,unit
+CAT-0206,"Concrete masonry unit, 140 mm, lightweight",Masonry,unit
+CAT-0207,"Concrete masonry unit, 190 mm, standard",Masonry,unit
+CAT-0208,"Concrete masonry unit, 190 mm, lightweight",Masonry,unit
+CAT-0209,"Concrete masonry unit, 240 mm, standard",Masonry,unit
+CAT-0210,"Concrete masonry unit, 240 mm, lightweight",Masonry,unit
+CAT-0211,"Concrete masonry unit, 290 mm, standard",Masonry,unit
+CAT-0212,"Concrete masonry unit, 290 mm, lightweight",Masonry,unit
+CAT-0213,"Clay brick, modular, standard",Masonry,unit
+CAT-0214,"Clay brick, modular, engineered",Masonry,unit
+CAT-0215,"Mortar, Type S",Masonry,kg
+CAT-0216,"Mortar, Type N",Masonry,kg
+CAT-0217,"Stone veneer, natural granite, 30 mm",Masonry,m2
+CAT-0218,"SBS modified bitumen membrane, 2-ply",Roofing,m2
+CAT-0219,"TPO roofing membrane, 1.5 mm",Roofing,m2
+CAT-0220,"EPDM roofing membrane, 1.5 mm",Roofing,m2
+CAT-0221,"Asphalt shingles, laminated, 30-year",Roofing,m2
+CAT-0222,"Standing seam metal roof, 0.61 mm aluminum",Roofing,m2
+CAT-0223,"Roof vapour barrier, self-adhered",Roofing,m2
+CAT-0224,"Air barrier membrane, self-adhered",Roofing,m2
+CAT-0225,"Dampproofing, asphalt emulsion",Roofing,m2
+CAT-0226,"Waterproofing membrane, hot rubberized asphalt",Roofing,m2
+CAT-0227,"Insulated glazing unit, double, 6 mm clear, argon",Glazing,m2
+CAT-0228,"Insulated glazing unit, triple, 6 mm low-e, argon",Glazing,m2
+CAT-0229,"Curtain wall system, aluminum, thermally broken",Glazing,m2
+CAT-0230,"Aluminum window, fixed, thermally broken",Glazing,m2
+CAT-0231,"Aluminum window, operable, thermally broken",Glazing,m2
+CAT-0232,"Hollow metal door, 45 min fire rated, 915x2135 mm",Doors,unit
+CAT-0233,"Hollow metal door frame, 16 ga, welded",Doors,unit
+CAT-0234,"Solid core wood door, 915x2135 mm",Doors,unit
+CAT-0235,"Overhead sectional door, insulated, 3050x3050 mm",Doors,unit
+CAT-0236,"Copper pipe, Type L, 15 mm",Mechanical,m
+CAT-0237,"Steel pipe, Schedule 40, black, 15 mm",Mechanical,m
+CAT-0238,"PVC pipe, DWV, 15 mm",Mechanical,m
+CAT-0239,"PEX tubing, 15 mm",Mechanical,m
+CAT-0240,"Copper pipe, Type L, 20 mm",Mechanical,m
+CAT-0241,"Steel pipe, Schedule 40, black, 20 mm",Mechanical,m
+CAT-0242,"PVC pipe, DWV, 20 mm",Mechanical,m
+CAT-0243,"PEX tubing, 20 mm",Mechanical,m
+CAT-0244,"Copper pipe, Type L, 25 mm",Mechanical,m
+CAT-0245,"Steel pipe, Schedule 40, black, 25 mm",Mechanical,m
+CAT-0246,"PVC pipe, DWV, 25 mm",Mechanical,m
+CAT-0247,"PEX tubing, 25 mm",Mechanical,m
+CAT-0248,"Copper pipe, Type L, 40 mm",Mechanical,m
+CAT-0249,"Steel pipe, Schedule 40, black, 40 mm",Mechanical,m
+CAT-0250,"PVC pipe, DWV, 40 mm",Mechanical,m
+CAT-0251,"PEX tubing, 40 mm",Mechanical,m
+CAT-0252,"Copper pipe, Type L, 50 mm",Mechanical,m
+CAT-0253,"Steel pipe, Schedule 40, black, 50 mm",Mechanical,m
+CAT-0254,"PVC pipe, DWV, 50 mm",Mechanical,m
+CAT-0255,"PEX tubing, 50 mm",Mechanical,m
+CAT-0256,"Copper pipe, Type L, 75 mm",Mechanical,m
+CAT-0257,"Steel pipe, Schedule 40, black, 75 mm",Mechanical,m
+CAT-0258,"PVC pipe, DWV, 75 mm",Mechanical,m
+CAT-0259,"PEX tubing, 75 mm",Mechanical,m
+CAT-0260,"Copper pipe, Type L, 100 mm",Mechanical,m
+CAT-0261,"Steel pipe, Schedule 40, black, 100 mm",Mechanical,m
+CAT-0262,"PVC pipe, DWV, 100 mm",Mechanical,m
+CAT-0263,"PEX tubing, 100 mm",Mechanical,m
+CAT-0264,"Copper pipe, Type L, 150 mm",Mechanical,m
+CAT-0265,"Steel pipe, Schedule 40, black, 150 mm",Mechanical,m
+CAT-0266,"PVC pipe, DWV, 150 mm",Mechanical,m
+CAT-0267,"PEX tubing, 150 mm",Mechanical,m
+CAT-0268,"Pipe insulation, fibreglass, 25 mm wall",Mechanical,m
+CAT-0269,"Ductwork, galvanized, rectangular, 26 ga",Mechanical,kg
+CAT-0270,"Ductwork, galvanized, spiral round, 26 ga",Mechanical,kg
+CAT-0271,"Duct insulation, fibreglass wrap, 38 mm",Mechanical,m2
+CAT-0272,"EMT conduit, 16 mm",Electrical,m
+CAT-0273,"Rigid PVC conduit, 16 mm",Electrical,m
+CAT-0274,"EMT conduit, 21 mm",Electrical,m
+CAT-0275,"Rigid PVC conduit, 21 mm",Electrical,m
+CAT-0276,"EMT conduit, 27 mm",Electrical,m
+CAT-0277,"Rigid PVC conduit, 27 mm",Electrical,m
+CAT-0278,"EMT conduit, 35 mm",Electrical,m
+CAT-0279,"Rigid PVC conduit, 35 mm",Electrical,m
+CAT-0280,"EMT conduit, 41 mm",Electrical,m
+CAT-0281,"Rigid PVC conduit, 41 mm",Electrical,m
+CAT-0282,"EMT conduit, 53 mm",Electrical,m
+CAT-0283,"Rigid PVC conduit, 53 mm",Electrical,m
+CAT-0284,"Copper conductor, RW90, #14 AWG",Electrical,m
+CAT-0285,"Copper conductor, RW90, #12 AWG",Electrical,m
+CAT-0286,"Copper conductor, RW90, #10 AWG",Electrical,m
+CAT-0287,"Copper conductor, RW90, #8 AWG",Electrical,m
+CAT-0288,"Copper conductor, RW90, #6 AWG",Electrical,m
+CAT-0289,"Copper conductor, RW90, #3 AWG",Electrical,m
+CAT-0290,"Copper conductor, RW90, #1 AWG",Electrical,m
+CAT-0291,"Copper conductor, RW90, #1/0 AWG",Electrical,m
+CAT-0292,"Copper conductor, RW90, #4/0 AWG",Electrical,m
+CAT-0293,"Armoured cable, AC90, 14/2",Electrical,m
+CAT-0294,"Armoured cable, AC90, 12/2",Electrical,m
+CAT-0295,"Cable tray, aluminum, ladder, 300 mm",Electrical,m
+CAT-0296,"Cable tray, aluminum, ladder, 600 mm",Electrical,m
+CAT-0297,"Paint, interior latex, 2 coats, eggshell",Finishes,m2
+CAT-0298,"Paint, interior latex, 2 coats, semi-gloss",Finishes,m2
+CAT-0299,"Epoxy floor coating, 2-component, 0.5 mm",Finishes,m2
+CAT-0300,"Porcelain tile, 300x600 mm, floor",Finishes,m2
+CAT-0301,"Porcelain tile, 100x300 mm, wall",Finishes,m2
+CAT-0302,"Carpet tile, 500x500 mm, commercial",Finishes,m2
+CAT-0303,"Luxury vinyl tile, 5 mm, commercial",Finishes,m2
+CAT-0304,"Resilient sheet flooring, 2 mm, homogeneous",Finishes,m2
+CAT-0305,"Acoustic ceiling tile, 610x610 mm, mineral fibre",Finishes,m2
+CAT-0306,"Suspended ceiling grid, 24 mm tee",Finishes,m2
+CAT-0307,"Rubber base, 100 mm, coved",Finishes,m
+CAT-0308,"Granular base, 20 mm crushed",Sitework,t
+CAT-0309,"Granular sub-base, 50 mm crushed",Sitework,t
+CAT-0310,"Asphalt paving, HL-3, 50 mm",Sitework,m2
+CAT-0311,"Asphalt paving, HL-8 binder, 50 mm",Sitework,m2
+CAT-0312,"Concrete sidewalk, 32 MPa, 125 mm, broom finish",Sitework,m2
+CAT-0313,"Concrete curb and gutter, barrier type",Sitework,m
+CAT-0314,"Topsoil, imported, 100 mm",Sitework,m2
+CAT-0315,"Sod, cultivated, No.1",Sitework,m2
+CAT-0316,"Chain link fence, 1.8 m, galvanized",Sitework,m
+CAT-0317,"Ready-mix concrete, 20 MPa, 15% fly ash, air entrained",Concrete,m3
+CAT-0318,"Ready-mix concrete, 20 MPa, 25% fly ash, air entrained",Concrete,m3
+CAT-0319,"Ready-mix concrete, 20 MPa, 35% fly ash, air entrained",Concrete,m3
+CAT-0320,"Ready-mix concrete, 25 MPa, 15% fly ash, air entrained",Concrete,m3
+CAT-0321,"Ready-mix concrete, 25 MPa, 25% fly ash, air entrained",Concrete,m3
+CAT-0322,"Ready-mix concrete, 25 MPa, 35% fly ash, air entrained",Concrete,m3
+CAT-0323,"Ready-mix concrete, 30 MPa, 15% fly ash, air entrained",Concrete,m3
+CAT-0324,"Ready-mix concrete, 30 MPa, 25% fly ash, air entrained",Concrete,m3
+CAT-0325,"Ready-mix concrete, 30 MPa, 35% fly ash, air entrained",Concrete,m3
+CAT-0326,"Ready-mix concrete, 35 MPa, 15% fly ash, air entrained",Concrete,m3
+CAT-0327,"Ready-mix concrete, 35 MPa, 25% fly ash, air entrained",Concrete,m3
+CAT-0328,"Ready-mix concrete, 35 MPa, 35% fly ash, air entrained",Concrete,m3
+CAT-0329,"Ready-mix concrete, 40 MPa, 15% fly ash, air entrained",Concrete,m3
+CAT-0330,"Ready-mix concrete, 40 MPa, 25% fly ash, air entrained",Concrete,m3
+CAT-0331,"Ready-mix concrete, 40 MPa, 35% fly ash, air entrained",Concrete,m3
+CAT-0332,"Ready-mix concrete, 45 MPa, 15% fly ash, air entrained",Concrete,m3
+CAT-0333,"Ready-mix concrete, 45 MPa, 25% fly ash, air entrained",Concrete,m3
+CAT-0334,"Ready-mix concrete, 45 MPa, 35% fly ash, air entrained",Concrete,m3
+CAT-0335,"Ready-mix concrete, 50 MPa, 15% fly ash, air entrained",Concrete,m3
+CAT-0336,"Ready-mix concrete, 50 MPa, 25% fly ash, air entrained",Concrete,m3
+CAT-0337,"Ready-mix concrete, 50 MPa, 35% fly ash, air entrained",Concrete,m3
+CAT-0338,"Steel HSS 2x2x1/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0339,"Steel HSS 2x2x3/16, ASTM A500 Grade B",Structural Steel,kg
+CAT-0340,"Steel HSS 2x2x1/4, ASTM A500 Grade B",Structural Steel,kg
+CAT-0341,"Steel HSS 2x2x3/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0342,"Steel HSS 2x2x1/2, ASTM A500 Grade B",Structural Steel,kg
+CAT-0343,"Steel HSS 3x3x1/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0344,"Steel HSS 3x3x3/16, ASTM A500 Grade B",Structural Steel,kg
+CAT-0345,"Steel HSS 3x3x1/4, ASTM A500 Grade B",Structural Steel,kg
+CAT-0346,"Steel HSS 3x3x3/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0347,"Steel HSS 3x3x1/2, ASTM A500 Grade B",Structural Steel,kg
+CAT-0348,"Steel HSS 4x4x1/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0349,"Steel HSS 4x4x3/16, ASTM A500 Grade B",Structural Steel,kg
+CAT-0350,"Steel HSS 4x4x1/4, ASTM A500 Grade B",Structural Steel,kg
+CAT-0351,"Steel HSS 4x4x3/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0352,"Steel HSS 4x4x1/2, ASTM A500 Grade B",Structural Steel,kg
+CAT-0353,"Steel HSS 5x5x1/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0354,"Steel HSS 5x5x3/16, ASTM A500 Grade B",Structural Steel,kg
+CAT-0355,"Steel HSS 5x5x1/4, ASTM A500 Grade B",Structural Steel,kg
+CAT-0356,"Steel HSS 5x5x3/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0357,"Steel HSS 5x5x1/2, ASTM A500 Grade B",Structural Steel,kg
+CAT-0358,"Steel HSS 6x6x1/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0359,"Steel HSS 6x6x3/16, ASTM A500 Grade B",Structural Steel,kg
+CAT-0360,"Steel HSS 6x6x1/4, ASTM A500 Grade B",Structural Steel,kg
+CAT-0361,"Steel HSS 6x6x3/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0362,"Steel HSS 6x6x1/2, ASTM A500 Grade B",Structural Steel,kg
+CAT-0363,"Steel HSS 8x8x1/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0364,"Steel HSS 8x8x3/16, ASTM A500 Grade B",Structural Steel,kg
+CAT-0365,"Steel HSS 8x8x1/4, ASTM A500 Grade B",Structural Steel,kg
+CAT-0366,"Steel HSS 8x8x3/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0367,"Steel HSS 8x8x1/2, ASTM A500 Grade B",Structural Steel,kg
+CAT-0368,"Steel HSS 10x10x1/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0369,"Steel HSS 10x10x3/16, ASTM A500 Grade B",Structural Steel,kg
+CAT-0370,"Steel HSS 10x10x1/4, ASTM A500 Grade B",Structural Steel,kg
+CAT-0371,"Steel HSS 10x10x3/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0372,"Steel HSS 10x10x1/2, ASTM A500 Grade B",Structural Steel,kg
+CAT-0373,"Steel HSS 4x2x1/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0374,"Steel HSS 4x2x3/16, ASTM A500 Grade B",Structural Steel,kg
+CAT-0375,"Steel HSS 4x2x1/4, ASTM A500 Grade B",Structural Steel,kg
+CAT-0376,"Steel HSS 4x2x3/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0377,"Steel HSS 4x2x1/2, ASTM A500 Grade B",Structural Steel,kg
+CAT-0378,"Steel HSS 6x4x1/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0379,"Steel HSS 6x4x3/16, ASTM A500 Grade B",Structural Steel,kg
+CAT-0380,"Steel HSS 6x4x1/4, ASTM A500 Grade B",Structural Steel,kg
+CAT-0381,"Steel HSS 6x4x3/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0382,"Steel HSS 6x4x1/2, ASTM A500 Grade B",Structural Steel,kg
+CAT-0383,"Steel HSS 8x4x1/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0384,"Steel HSS 8x4x3/16, ASTM A500 Grade B",Structural Steel,kg
+CAT-0385,"Steel HSS 8x4x1/4, ASTM A500 Grade B",Structural Steel,kg
+CAT-0386,"Steel HSS 8x4x3/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0387,"Steel HSS 8x4x1/2, ASTM A500 Grade B",Structural Steel,kg
+CAT-0388,"Steel HSS 8x6x1/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0389,"Steel HSS 8x6x3/16, ASTM A500 Grade B",Structural Steel,kg
+CAT-0390,"Steel HSS 8x6x1/4, ASTM A500 Grade B",Structural Steel,kg
+CAT-0391,"Steel HSS 8x6x3/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0392,"Steel HSS 8x6x1/2, ASTM A500 Grade B",Structural Steel,kg
+CAT-0393,"Steel HSS 10x6x1/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0394,"Steel HSS 10x6x3/16, ASTM A500 Grade B",Structural Steel,kg
+CAT-0395,"Steel HSS 10x6x1/4, ASTM A500 Grade B",Structural Steel,kg
+CAT-0396,"Steel HSS 10x6x3/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0397,"Steel HSS 10x6x1/2, ASTM A500 Grade B",Structural Steel,kg
+CAT-0398,"Steel HSS 12x8x1/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0399,"Steel HSS 12x8x3/16, ASTM A500 Grade B",Structural Steel,kg
+CAT-0400,"Steel HSS 12x8x1/4, ASTM A500 Grade B",Structural Steel,kg
+CAT-0401,"Steel HSS 12x8x3/8, ASTM A500 Grade B",Structural Steel,kg
+CAT-0402,"Steel HSS 12x8x1/2, ASTM A500 Grade B",Structural Steel,kg
+CAT-0403,"Gypsum board, 12.7 mm, regular, 1220x2440 mm sheet",Gypsum,m2
+CAT-0404,"Gypsum board, 12.7 mm, Type X fire rated, 1220x2440 mm sheet",Gypsum,m2
+CAT-0405,"Gypsum board, 12.7 mm, moisture resistant, 1220x2440 mm sheet",Gypsum,m2
+CAT-0406,"Gypsum board, 15.9 mm, regular, 1220x2440 mm sheet",Gypsum,m2
+CAT-0407,"Gypsum board, 15.9 mm, Type X fire rated, 1220x2440 mm sheet",Gypsum,m2
+CAT-0408,"Gypsum board, 15.9 mm, moisture resistant, 1220x2440 mm sheet",Gypsum,m2
+CAT-0409,"Gypsum board, 15.9 mm, Type C fire rated, 1220x2440 mm sheet",Gypsum,m2
+CAT-0410,"Cement board, 12.7 mm, 1220x2440 mm sheet",Gypsum,m2
+CAT-0411,"Shaft liner panel, 25.4 mm, Type X, 1220x2440 mm sheet",Gypsum,m2
+CAT-0412,"Dimensional lumber, 38x89 mm, SPF No.1/Btr",Wood,m
+CAT-0413,"Dimensional lumber, 38x89 mm, SPF No.1/Btr, pressure treated",Wood,m
+CAT-0414,"Dimensional lumber, 38x140 mm, SPF No.1/Btr",Wood,m
+CAT-0415,"Dimensional lumber, 38x140 mm, SPF No.1/Btr, pressure treated",Wood,m
+CAT-0416,"Dimensional lumber, 38x184 mm, SPF No.1/Btr",Wood,m
+CAT-0417,"Dimensional lumber, 38x184 mm, SPF No.1/Btr, pressure treated",Wood,m
+CAT-0418,"Dimensional lumber, 38x235 mm, SPF No.1/Btr",Wood,m
+CAT-0419,"Dimensional lumber, 38x235 mm, SPF No.1/Btr, pressure treated",Wood,m
+CAT-0420,"Dimensional lumber, 38x286 mm, SPF No.1/Btr",Wood,m
+CAT-0421,"Dimensional lumber, 38x286 mm, SPF No.1/Btr, pressure treated",Wood,m
+CAT-0422,"Batt insulation, fibreglass, R-12, unfaced",Insulation,m2
+CAT-0423,"Batt insulation, mineral wool, R-12, unfaced",Insulation,m2
+CAT-0424,"Batt insulation, fibreglass, R-20, unfaced",Insulation,m2
+CAT-0425,"Batt insulation, mineral wool, R-20, unfaced",Insulation,m2
+CAT-0426,"Batt insulation, fibreglass, R-22, unfaced",Insulation,m2
+CAT-0427,"Batt insulation, mineral wool, R-22, unfaced",Insulation,m2
+CAT-0428,"Batt insulation, fibreglass, R-28, unfaced",Insulation,m2
+CAT-0429,"Batt insulation, mineral wool, R-28, unfaced",Insulation,m2
+CAT-0430,"Batt insulation, fibreglass, R-40, unfaced",Insulation,m2
+CAT-0431,"Batt insulation, mineral wool, R-40, unfaced",Insulation,m2
+CAT-0432,"Copper pipe, Type K, 15 mm",Mechanical,m
+CAT-0433,"Copper pipe, Type K, 20 mm",Mechanical,m
+CAT-0434,"Copper pipe, Type K, 25 mm",Mechanical,m
+CAT-0435,"Copper pipe, Type K, 40 mm",Mechanical,m
+CAT-0436,"Copper pipe, Type K, 50 mm",Mechanical,m
+CAT-0437,"Copper pipe, Type K, 75 mm",Mechanical,m
+CAT-0438,"Copper pipe, Type K, 100 mm",Mechanical,m
+CAT-0439,"Copper pipe, Type K, 150 mm",Mechanical,m
+CAT-0440,"Copper conductor, T90 Nylon, #14 AWG",Electrical,m
+CAT-0441,"Copper conductor, T90 Nylon, #12 AWG",Electrical,m
+CAT-0442,"Copper conductor, T90 Nylon, #10 AWG",Electrical,m
+CAT-0443,"Copper conductor, T90 Nylon, #8 AWG",Electrical,m
+CAT-0444,"Copper conductor, T90 Nylon, #6 AWG",Electrical,m
+CAT-0445,"Copper conductor, T90 Nylon, #3 AWG",Electrical,m
+CAT-0446,"Copper conductor, T90 Nylon, #1 AWG",Electrical,m
+CAT-0447,"Copper conductor, T90 Nylon, #1/0 AWG",Electrical,m
+CAT-0448,"Copper conductor, T90 Nylon, #4/0 AWG",Electrical,m
+CAT-0449,"Paint, interior latex, 2 coats, eggshell, premium grade",Finishes,m2
+CAT-0450,"Paint, interior latex, 2 coats, semi-gloss, premium grade",Finishes,m2
+CAT-0451,"Epoxy floor coating, 2-component, 0.5 mm, premium grade",Finishes,m2
+CAT-0452,"Porcelain tile, 300x600 mm, floor, premium grade",Finishes,m2
+CAT-0453,"Porcelain tile, 100x300 mm, wall, premium grade",Finishes,m2
+CAT-0454,"Carpet tile, 500x500 mm, commercial, premium grade",Finishes,m2
+CAT-0455,"Luxury vinyl tile, 5 mm, commercial, premium grade",Finishes,m2
+CAT-0456,"Resilient sheet flooring, 2 mm, homogeneous, premium grade",Finishes,m2
+CAT-0457,"Acoustic ceiling tile, 610x610 mm, mineral fibre, premium grade",Finishes,m2
+CAT-0458,"Suspended ceiling grid, 24 mm tee, premium grade",Finishes,m2
+CAT-0459,"Rubber base, 100 mm, coved, premium grade",Finishes,m
+CAT-0460,"Miscellaneous fastener assortment, type 20",Miscellaneous,kg
+CAT-0461,"Miscellaneous fastener assortment, type 21",Miscellaneous,kg
+CAT-0462,"Miscellaneous fastener assortment, type 22",Miscellaneous,kg
+CAT-0463,"Miscellaneous fastener assortment, type 23",Miscellaneous,kg
+CAT-0464,"Miscellaneous fastener assortment, type 24",Miscellaneous,kg
+CAT-0465,"Miscellaneous fastener assortment, type 25",Miscellaneous,kg
+CAT-0466,"Miscellaneous fastener assortment, type 26",Miscellaneous,kg
+CAT-0467,"Miscellaneous fastener assortment, type 27",Miscellaneous,kg
+CAT-0468,"Miscellaneous fastener assortment, type 28",Miscellaneous,kg
+CAT-0469,"Miscellaneous fastener assortment, type 29",Miscellaneous,kg
+CAT-0470,"Miscellaneous fastener assortment, type 30",Miscellaneous,kg
+CAT-0471,"Miscellaneous fastener assortment, type 31",Miscellaneous,kg
+CAT-0472,"Miscellaneous fastener assortment, type 32",Miscellaneous,kg
+CAT-0473,"Miscellaneous fastener assortment, type 33",Miscellaneous,kg
+CAT-0474,"Miscellaneous fastener assortment, type 34",Miscellaneous,kg
+CAT-0475,"Miscellaneous fastener assortment, type 35",Miscellaneous,kg
+CAT-0476,"Miscellaneous fastener assortment, type 36",Miscellaneous,kg
+CAT-0477,"Miscellaneous fastener assortment, type 37",Miscellaneous,kg
+CAT-0478,"Miscellaneous fastener assortment, type 38",Miscellaneous,kg
+CAT-0479,"Miscellaneous fastener assortment, type 39",Miscellaneous,kg
+CAT-0480,"Miscellaneous fastener assortment, type 40",Miscellaneous,kg
+CAT-0481,"Miscellaneous fastener assortment, type 1",Miscellaneous,kg
+CAT-0482,"Miscellaneous fastener assortment, type 2",Miscellaneous,kg
+CAT-0483,"Miscellaneous fastener assortment, type 3",Miscellaneous,kg
+CAT-0484,"Miscellaneous fastener assortment, type 4",Miscellaneous,kg
+CAT-0485,"Miscellaneous fastener assortment, type 5",Miscellaneous,kg
+CAT-0486,"Miscellaneous fastener assortment, type 6",Miscellaneous,kg
+CAT-0487,"Miscellaneous fastener assortment, type 7",Miscellaneous,kg
+CAT-0488,"Miscellaneous fastener assortment, type 8",Miscellaneous,kg
+CAT-0489,"Miscellaneous fastener assortment, type 9",Miscellaneous,kg
+CAT-0490,"Miscellaneous fastener assortment, type 10",Miscellaneous,kg
+CAT-0491,"Miscellaneous fastener assortment, type 11",Miscellaneous,kg
+CAT-0492,"Miscellaneous fastener assortment, type 12",Miscellaneous,kg
+CAT-0493,"Miscellaneous fastener assortment, type 13",Miscellaneous,kg
+CAT-0494,"Miscellaneous fastener assortment, type 14",Miscellaneous,kg
+CAT-0495,"Miscellaneous fastener assortment, type 15",Miscellaneous,kg
+CAT-0496,"Miscellaneous fastener assortment, type 16",Miscellaneous,kg
+CAT-0497,"Miscellaneous fastener assortment, type 17",Miscellaneous,kg
+CAT-0498,"Miscellaneous fastener assortment, type 18",Miscellaneous,kg
+CAT-0499,"Miscellaneous fastener assortment, type 19",Miscellaneous,kg
+CAT-0500,"Miscellaneous fastener assortment, type 20",Miscellaneous,kg
+CAT-0501,"Miscellaneous fastener assortment, type 21",Miscellaneous,kg
+CAT-0502,"Miscellaneous fastener assortment, type 22",Miscellaneous,kg
+CAT-0503,"Miscellaneous fastener assortment, type 23",Miscellaneous,kg
+CAT-0504,"Miscellaneous fastener assortment, type 24",Miscellaneous,kg
+CAT-0505,"Miscellaneous fastener assortment, type 25",Miscellaneous,kg
+CAT-0506,"Miscellaneous fastener assortment, type 26",Miscellaneous,kg
+CAT-0507,"Miscellaneous fastener assortment, type 27",Miscellaneous,kg
+CAT-0508,"Miscellaneous fastener assortment, type 28",Miscellaneous,kg
+CAT-0509,"Miscellaneous fastener assortment, type 29",Miscellaneous,kg
+CAT-0510,"Miscellaneous fastener assortment, type 30",Miscellaneous,kg
+CAT-0511,"Miscellaneous fastener assortment, type 31",Miscellaneous,kg
+CAT-0512,"Miscellaneous fastener assortment, type 32",Miscellaneous,kg
+CAT-0513,"Miscellaneous fastener assortment, type 33",Miscellaneous,kg
+CAT-0514,"Miscellaneous fastener assortment, type 34",Miscellaneous,kg
+CAT-0515,"Miscellaneous fastener assortment, type 35",Miscellaneous,kg
+CAT-0516,"Miscellaneous fastener assortment, type 36",Miscellaneous,kg
+CAT-0517,"Miscellaneous fastener assortment, type 37",Miscellaneous,kg
+CAT-0518,"Miscellaneous fastener assortment, type 38",Miscellaneous,kg
+CAT-0519,"Miscellaneous fastener assortment, type 39",Miscellaneous,kg
+CAT-0520,"Miscellaneous fastener assortment, type 40",Miscellaneous,kg
+CAT-0521,"Miscellaneous fastener assortment, type 1",Miscellaneous,kg
+CAT-0522,"Miscellaneous fastener assortment, type 2",Miscellaneous,kg
+CAT-0523,"Miscellaneous fastener assortment, type 3",Miscellaneous,kg
+CAT-0524,"Miscellaneous fastener assortment, type 4",Miscellaneous,kg
+CAT-0525,"Miscellaneous fastener assortment, type 5",Miscellaneous,kg
+CAT-0526,"Miscellaneous fastener assortment, type 6",Miscellaneous,kg
+CAT-0527,"Miscellaneous fastener assortment, type 7",Miscellaneous,kg
+CAT-0528,"Miscellaneous fastener assortment, type 8",Miscellaneous,kg
+CAT-0529,"Miscellaneous fastener assortment, type 9",Miscellaneous,kg
+CAT-0530,"Miscellaneous fastener assortment, type 10",Miscellaneous,kg
+CAT-0531,"Miscellaneous fastener assortment, type 11",Miscellaneous,kg
+CAT-0532,"Miscellaneous fastener assortment, type 12",Miscellaneous,kg
+CAT-0533,"Miscellaneous fastener assortment, type 13",Miscellaneous,kg
+CAT-0534,"Miscellaneous fastener assortment, type 14",Miscellaneous,kg
+CAT-0535,"Miscellaneous fastener assortment, type 15",Miscellaneous,kg
+CAT-0536,"Miscellaneous fastener assortment, type 16",Miscellaneous,kg
+CAT-0537,"Miscellaneous fastener assortment, type 17",Miscellaneous,kg
+CAT-0538,"Miscellaneous fastener assortment, type 18",Miscellaneous,kg
+CAT-0539,"Miscellaneous fastener assortment, type 19",Miscellaneous,kg
+CAT-0540,"Miscellaneous fastener assortment, type 20",Miscellaneous,kg
+CAT-0541,"Miscellaneous fastener assortment, type 21",Miscellaneous,kg
+CAT-0542,"Miscellaneous fastener assortment, type 22",Miscellaneous,kg
+CAT-0543,"Miscellaneous fastener assortment, type 23",Miscellaneous,kg
+CAT-0544,"Miscellaneous fastener assortment, type 24",Miscellaneous,kg
+CAT-0545,"Miscellaneous fastener assortment, type 25",Miscellaneous,kg
+CAT-0546,"Miscellaneous fastener assortment, type 26",Miscellaneous,kg
+CAT-0547,"Miscellaneous fastener assortment, type 27",Miscellaneous,kg
+CAT-0548,"Miscellaneous fastener assortment, type 28",Miscellaneous,kg
+CAT-0549,"Miscellaneous fastener assortment, type 29",Miscellaneous,kg
+CAT-0550,"Miscellaneous fastener assortment, type 30",Miscellaneous,kg
+CAT-0551,"Miscellaneous fastener assortment, type 31",Miscellaneous,kg
+CAT-0552,"Miscellaneous fastener assortment, type 32",Miscellaneous,kg
+CAT-0553,"Miscellaneous fastener assortment, type 33",Miscellaneous,kg
+CAT-0554,"Miscellaneous fastener assortment, type 34",Miscellaneous,kg
+CAT-0555,"Miscellaneous fastener assortment, type 35",Miscellaneous,kg
+CAT-0556,"Miscellaneous fastener assortment, type 36",Miscellaneous,kg
+CAT-0557,"Miscellaneous fastener assortment, type 37",Miscellaneous,kg
+CAT-0558,"Miscellaneous fastener assortment, type 38",Miscellaneous,kg
+CAT-0559,"Miscellaneous fastener assortment, type 39",Miscellaneous,kg
+CAT-0560,"Miscellaneous fastener assortment, type 40",Miscellaneous,kg
+CAT-0561,"Miscellaneous fastener assortment, type 1",Miscellaneous,kg
+CAT-0562,"Miscellaneous fastener assortment, type 2",Miscellaneous,kg
+CAT-0563,"Miscellaneous fastener assortment, type 3",Miscellaneous,kg
+CAT-0564,"Miscellaneous fastener assortment, type 4",Miscellaneous,kg
+CAT-0565,"Miscellaneous fastener assortment, type 5",Miscellaneous,kg
+CAT-0566,"Miscellaneous fastener assortment, type 6",Miscellaneous,kg
+CAT-0567,"Miscellaneous fastener assortment, type 7",Miscellaneous,kg
+CAT-0568,"Miscellaneous fastener assortment, type 8",Miscellaneous,kg
+CAT-0569,"Miscellaneous fastener assortment, type 9",Miscellaneous,kg
+CAT-0570,"Miscellaneous fastener assortment, type 10",Miscellaneous,kg
+CAT-0571,"Miscellaneous fastener assortment, type 11",Miscellaneous,kg
+CAT-0572,"Miscellaneous fastener assortment, type 12",Miscellaneous,kg
+CAT-0573,"Miscellaneous fastener assortment, type 13",Miscellaneous,kg
+CAT-0574,"Miscellaneous fastener assortment, type 14",Miscellaneous,kg
+CAT-0575,"Miscellaneous fastener assortment, type 15",Miscellaneous,kg
+CAT-0576,"Miscellaneous fastener assortment, type 16",Miscellaneous,kg
+CAT-0577,"Miscellaneous fastener assortment, type 17",Miscellaneous,kg
+CAT-0578,"Miscellaneous fastener assortment, type 18",Miscellaneous,kg
+CAT-0579,"Miscellaneous fastener assortment, type 19",Miscellaneous,kg
+CAT-0580,"Miscellaneous fastener assortment, type 20",Miscellaneous,kg
+CAT-0581,"Miscellaneous fastener assortment, type 21",Miscellaneous,kg
+CAT-0582,"Miscellaneous fastener assortment, type 22",Miscellaneous,kg
+CAT-0583,"Miscellaneous fastener assortment, type 23",Miscellaneous,kg
+CAT-0584,"Miscellaneous fastener assortment, type 24",Miscellaneous,kg
+CAT-0585,"Miscellaneous fastener assortment, type 25",Miscellaneous,kg
+CAT-0586,"Miscellaneous fastener assortment, type 26",Miscellaneous,kg
+CAT-0587,"Miscellaneous fastener assortment, type 27",Miscellaneous,kg
+CAT-0588,"Miscellaneous fastener assortment, type 28",Miscellaneous,kg
+CAT-0589,"Miscellaneous fastener assortment, type 29",Miscellaneous,kg
+CAT-0590,"Miscellaneous fastener assortment, type 30",Miscellaneous,kg
+CAT-0591,"Miscellaneous fastener assortment, type 31",Miscellaneous,kg
+CAT-0592,"Miscellaneous fastener assortment, type 32",Miscellaneous,kg
+CAT-0593,"Miscellaneous fastener assortment, type 33",Miscellaneous,kg
+CAT-0594,"Miscellaneous fastener assortment, type 34",Miscellaneous,kg
+CAT-0595,"Miscellaneous fastener assortment, type 35",Miscellaneous,kg
+CAT-0596,"Miscellaneous fastener assortment, type 36",Miscellaneous,kg
+CAT-0597,"Miscellaneous fastener assortment, type 37",Miscellaneous,kg
+CAT-0598,"Miscellaneous fastener assortment, type 38",Miscellaneous,kg
+CAT-0599,"Miscellaneous fastener assortment, type 39",Miscellaneous,kg
+CAT-0600,"Miscellaneous fastener assortment, type 40",Miscellaneous,kg
+CAT-0601,"Miscellaneous fastener assortment, type 1",Miscellaneous,kg
+CAT-0602,"Miscellaneous fastener assortment, type 2",Miscellaneous,kg
+CAT-0603,"Miscellaneous fastener assortment, type 3",Miscellaneous,kg
+CAT-0604,"Miscellaneous fastener assortment, type 4",Miscellaneous,kg
+CAT-0605,"Miscellaneous fastener assortment, type 5",Miscellaneous,kg
+CAT-0606,"Miscellaneous fastener assortment, type 6",Miscellaneous,kg
+CAT-0607,"Miscellaneous fastener assortment, type 7",Miscellaneous,kg
+CAT-0608,"Miscellaneous fastener assortment, type 8",Miscellaneous,kg
+CAT-0609,"Miscellaneous fastener assortment, type 9",Miscellaneous,kg
+CAT-0610,"Miscellaneous fastener assortment, type 10",Miscellaneous,kg
+CAT-0611,"Miscellaneous fastener assortment, type 11",Miscellaneous,kg
+CAT-0612,"Miscellaneous fastener assortment, type 12",Miscellaneous,kg
+CAT-0613,"Miscellaneous fastener assortment, type 13",Miscellaneous,kg
+CAT-0614,"Miscellaneous fastener assortment, type 14",Miscellaneous,kg
+CAT-0615,"Miscellaneous fastener assortment, type 15",Miscellaneous,kg
+CAT-0616,"Miscellaneous fastener assortment, type 16",Miscellaneous,kg
+CAT-0617,"Miscellaneous fastener assortment, type 17",Miscellaneous,kg
+CAT-0618,"Miscellaneous fastener assortment, type 18",Miscellaneous,kg
+CAT-0619,"Miscellaneous fastener assortment, type 19",Miscellaneous,kg
+CAT-0620,"Miscellaneous fastener assortment, type 20",Miscellaneous,kg
+CAT-0621,"Miscellaneous fastener assortment, type 21",Miscellaneous,kg
+CAT-0622,"Miscellaneous fastener assortment, type 22",Miscellaneous,kg
+CAT-0623,"Miscellaneous fastener assortment, type 23",Miscellaneous,kg
+CAT-0624,"Miscellaneous fastener assortment, type 24",Miscellaneous,kg
+CAT-0625,"Miscellaneous fastener assortment, type 25",Miscellaneous,kg
+CAT-0626,"Miscellaneous fastener assortment, type 26",Miscellaneous,kg
+CAT-0627,"Miscellaneous fastener assortment, type 27",Miscellaneous,kg
+CAT-0628,"Miscellaneous fastener assortment, type 28",Miscellaneous,kg
+CAT-0629,"Miscellaneous fastener assortment, type 29",Miscellaneous,kg
+CAT-0630,"Miscellaneous fastener assortment, type 30",Miscellaneous,kg
+CAT-0631,"Miscellaneous fastener assortment, type 31",Miscellaneous,kg
+CAT-0632,"Miscellaneous fastener assortment, type 32",Miscellaneous,kg
+CAT-0633,"Miscellaneous fastener assortment, type 33",Miscellaneous,kg
+CAT-0634,"Miscellaneous fastener assortment, type 34",Miscellaneous,kg
+CAT-0635,"Miscellaneous fastener assortment, type 35",Miscellaneous,kg
+CAT-0636,"Miscellaneous fastener assortment, type 36",Miscellaneous,kg
+CAT-0637,"Miscellaneous fastener assortment, type 37",Miscellaneous,kg
+CAT-0638,"Miscellaneous fastener assortment, type 38",Miscellaneous,kg
+CAT-0639,"Miscellaneous fastener assortment, type 39",Miscellaneous,kg
+CAT-0640,"Miscellaneous fastener assortment, type 40",Miscellaneous,kg
+CAT-0641,"Miscellaneous fastener assortment, type 1",Miscellaneous,kg
+CAT-0642,"Miscellaneous fastener assortment, type 2",Miscellaneous,kg
+CAT-0643,"Miscellaneous fastener assortment, type 3",Miscellaneous,kg
+CAT-0644,"Miscellaneous fastener assortment, type 4",Miscellaneous,kg
+CAT-0645,"Miscellaneous fastener assortment, type 5",Miscellaneous,kg
+CAT-0646,"Miscellaneous fastener assortment, type 6",Miscellaneous,kg
+CAT-0647,"Miscellaneous fastener assortment, type 7",Miscellaneous,kg
+CAT-0648,"Miscellaneous fastener assortment, type 8",Miscellaneous,kg
+CAT-0649,"Miscellaneous fastener assortment, type 9",Miscellaneous,kg
+CAT-0650,"Miscellaneous fastener assortment, type 10",Miscellaneous,kg
+CAT-0651,"Miscellaneous fastener assortment, type 11",Miscellaneous,kg
+CAT-0652,"Miscellaneous fastener assortment, type 12",Miscellaneous,kg
+CAT-0653,"Miscellaneous fastener assortment, type 13",Miscellaneous,kg
+CAT-0654,"Miscellaneous fastener assortment, type 14",Miscellaneous,kg
+CAT-0655,"Miscellaneous fastener assortment, type 15",Miscellaneous,kg
+CAT-0656,"Miscellaneous fastener assortment, type 16",Miscellaneous,kg
+CAT-0657,"Miscellaneous fastener assortment, type 17",Miscellaneous,kg
+CAT-0658,"Miscellaneous fastener assortment, type 18",Miscellaneous,kg
+CAT-0659,"Miscellaneous fastener assortment, type 19",Miscellaneous,kg
+CAT-0660,"Miscellaneous fastener assortment, type 20",Miscellaneous,kg
+CAT-0661,"Miscellaneous fastener assortment, type 21",Miscellaneous,kg
+CAT-0662,"Miscellaneous fastener assortment, type 22",Miscellaneous,kg
+CAT-0663,"Miscellaneous fastener assortment, type 23",Miscellaneous,kg
+CAT-0664,"Miscellaneous fastener assortment, type 24",Miscellaneous,kg
+CAT-0665,"Miscellaneous fastener assortment, type 25",Miscellaneous,kg
+CAT-0666,"Miscellaneous fastener assortment, type 26",Miscellaneous,kg
+CAT-0667,"Miscellaneous fastener assortment, type 27",Miscellaneous,kg
+CAT-0668,"Miscellaneous fastener assortment, type 28",Miscellaneous,kg
+CAT-0669,"Miscellaneous fastener assortment, type 29",Miscellaneous,kg
+CAT-0670,"Miscellaneous fastener assortment, type 30",Miscellaneous,kg
+CAT-0671,"Miscellaneous fastener assortment, type 31",Miscellaneous,kg
+CAT-0672,"Miscellaneous fastener assortment, type 32",Miscellaneous,kg
+CAT-0673,"Miscellaneous fastener assortment, type 33",Miscellaneous,kg
+CAT-0674,"Miscellaneous fastener assortment, type 34",Miscellaneous,kg
+CAT-0675,"Miscellaneous fastener assortment, type 35",Miscellaneous,kg
+CAT-0676,"Miscellaneous fastener assortment, type 36",Miscellaneous,kg
+CAT-0677,"Miscellaneous fastener assortment, type 37",Miscellaneous,kg
+CAT-0678,"Miscellaneous fastener assortment, type 38",Miscellaneous,kg
+CAT-0679,"Miscellaneous fastener assortment, type 39",Miscellaneous,kg
+CAT-0680,"Miscellaneous fastener assortment, type 40",Miscellaneous,kg
+CAT-0681,"Miscellaneous fastener assortment, type 1",Miscellaneous,kg
+CAT-0682,"Miscellaneous fastener assortment, type 2",Miscellaneous,kg
+CAT-0683,"Miscellaneous fastener assortment, type 3",Miscellaneous,kg
+CAT-0684,"Miscellaneous fastener assortment, type 4",Miscellaneous,kg
+CAT-0685,"Miscellaneous fastener assortment, type 5",Miscellaneous,kg
+CAT-0686,"Miscellaneous fastener assortment, type 6",Miscellaneous,kg
+CAT-0687,"Miscellaneous fastener assortment, type 7",Miscellaneous,kg
+CAT-0688,"Miscellaneous fastener assortment, type 8",Miscellaneous,kg
+CAT-0689,"Miscellaneous fastener assortment, type 9",Miscellaneous,kg
+CAT-0690,"Miscellaneous fastener assortment, type 10",Miscellaneous,kg
+CAT-0691,"Miscellaneous fastener assortment, type 11",Miscellaneous,kg
+CAT-0692,"Miscellaneous fastener assortment, type 12",Miscellaneous,kg
+CAT-0693,"Miscellaneous fastener assortment, type 13",Miscellaneous,kg
+CAT-0694,"Miscellaneous fastener assortment, type 14",Miscellaneous,kg
+CAT-0695,"Miscellaneous fastener assortment, type 15",Miscellaneous,kg
+CAT-0696,"Miscellaneous fastener assortment, type 16",Miscellaneous,kg
+CAT-0697,"Miscellaneous fastener assortment, type 17",Miscellaneous,kg
+CAT-0698,"Miscellaneous fastener assortment, type 18",Miscellaneous,kg
+CAT-0699,"Miscellaneous fastener assortment, type 19",Miscellaneous,kg
+CAT-0700,"Miscellaneous fastener assortment, type 20",Miscellaneous,kg
+CAT-0701,"Miscellaneous fastener assortment, type 21",Miscellaneous,kg
+CAT-0702,"Miscellaneous fastener assortment, type 22",Miscellaneous,kg
+CAT-0703,"Miscellaneous fastener assortment, type 23",Miscellaneous,kg
+CAT-0704,"Miscellaneous fastener assortment, type 24",Miscellaneous,kg
+CAT-0705,"Miscellaneous fastener assortment, type 25",Miscellaneous,kg
+CAT-0706,"Miscellaneous fastener assortment, type 26",Miscellaneous,kg
+CAT-0707,"Miscellaneous fastener assortment, type 27",Miscellaneous,kg
+CAT-0708,"Miscellaneous fastener assortment, type 28",Miscellaneous,kg
+CAT-0709,"Miscellaneous fastener assortment, type 29",Miscellaneous,kg
+CAT-0710,"Miscellaneous fastener assortment, type 30",Miscellaneous,kg
+CAT-0711,"Miscellaneous fastener assortment, type 31",Miscellaneous,kg
+CAT-0712,"Miscellaneous fastener assortment, type 32",Miscellaneous,kg
+CAT-0713,"Miscellaneous fastener assortment, type 33",Miscellaneous,kg
+CAT-0714,"Miscellaneous fastener assortment, type 34",Miscellaneous,kg
+CAT-0715,"Miscellaneous fastener assortment, type 35",Miscellaneous,kg
+CAT-0716,"Miscellaneous fastener assortment, type 36",Miscellaneous,kg
+CAT-0717,"Miscellaneous fastener assortment, type 37",Miscellaneous,kg
+CAT-0718,"Miscellaneous fastener assortment, type 38",Miscellaneous,kg
+CAT-0719,"Miscellaneous fastener assortment, type 39",Miscellaneous,kg
+CAT-0720,"Miscellaneous fastener assortment, type 40",Miscellaneous,kg
+CAT-0721,"Miscellaneous fastener assortment, type 1",Miscellaneous,kg
+CAT-0722,"Miscellaneous fastener assortment, type 2",Miscellaneous,kg
+CAT-0723,"Miscellaneous fastener assortment, type 3",Miscellaneous,kg
+CAT-0724,"Miscellaneous fastener assortment, type 4",Miscellaneous,kg
+CAT-0725,"Miscellaneous fastener assortment, type 5",Miscellaneous,kg
+CAT-0726,"Miscellaneous fastener assortment, type 6",Miscellaneous,kg
+CAT-0727,"Miscellaneous fastener assortment, type 7",Miscellaneous,kg
+CAT-0728,"Miscellaneous fastener assortment, type 8",Miscellaneous,kg
+CAT-0729,"Miscellaneous fastener assortment, type 9",Miscellaneous,kg
+CAT-0730,"Miscellaneous fastener assortment, type 10",Miscellaneous,kg
+CAT-0731,"Miscellaneous fastener assortment, type 11",Miscellaneous,kg
+CAT-0732,"Miscellaneous fastener assortment, type 12",Miscellaneous,kg
+CAT-0733,"Miscellaneous fastener assortment, type 13",Miscellaneous,kg
+CAT-0734,"Miscellaneous fastener assortment, type 14",Miscellaneous,kg
+CAT-0735,"Miscellaneous fastener assortment, type 15",Miscellaneous,kg
+CAT-0736,"Miscellaneous fastener assortment, type 16",Miscellaneous,kg
+CAT-0737,"Miscellaneous fastener assortment, type 17",Miscellaneous,kg
+CAT-0738,"Miscellaneous fastener assortment, type 18",Miscellaneous,kg
+CAT-0739,"Miscellaneous fastener assortment, type 19",Miscellaneous,kg
+CAT-0740,"Miscellaneous fastener assortment, type 20",Miscellaneous,kg
+CAT-0741,"Miscellaneous fastener assortment, type 21",Miscellaneous,kg
+CAT-0742,"Miscellaneous fastener assortment, type 22",Miscellaneous,kg
+CAT-0743,"Miscellaneous fastener assortment, type 23",Miscellaneous,kg
+CAT-0744,"Miscellaneous fastener assortment, type 24",Miscellaneous,kg
+CAT-0745,"Miscellaneous fastener assortment, type 25",Miscellaneous,kg
+CAT-0746,"Miscellaneous fastener assortment, type 26",Miscellaneous,kg
+CAT-0747,"Miscellaneous fastener assortment, type 27",Miscellaneous,kg
+CAT-0748,"Miscellaneous fastener assortment, type 28",Miscellaneous,kg
+CAT-0749,"Miscellaneous fastener assortment, type 29",Miscellaneous,kg
+CAT-0750,"Miscellaneous fastener assortment, type 30",Miscellaneous,kg
+CAT-0751,"Miscellaneous fastener assortment, type 31",Miscellaneous,kg
+CAT-0752,"Miscellaneous fastener assortment, type 32",Miscellaneous,kg
+CAT-0753,"Miscellaneous fastener assortment, type 33",Miscellaneous,kg
+CAT-0754,"Miscellaneous fastener assortment, type 34",Miscellaneous,kg
+CAT-0755,"Miscellaneous fastener assortment, type 35",Miscellaneous,kg
+CAT-0756,"Miscellaneous fastener assortment, type 36",Miscellaneous,kg
+CAT-0757,"Miscellaneous fastener assortment, type 37",Miscellaneous,kg
+CAT-0758,"Miscellaneous fastener assortment, type 38",Miscellaneous,kg
+CAT-0759,"Miscellaneous fastener assortment, type 39",Miscellaneous,kg
+CAT-0760,"Miscellaneous fastener assortment, type 40",Miscellaneous,kg
+CAT-0761,"Miscellaneous fastener assortment, type 1",Miscellaneous,kg
+CAT-0762,"Miscellaneous fastener assortment, type 2",Miscellaneous,kg
+CAT-0763,"Miscellaneous fastener assortment, type 3",Miscellaneous,kg
+CAT-0764,"Miscellaneous fastener assortment, type 4",Miscellaneous,kg
+CAT-0765,"Miscellaneous fastener assortment, type 5",Miscellaneous,kg
+CAT-0766,"Miscellaneous fastener assortment, type 6",Miscellaneous,kg
+CAT-0767,"Miscellaneous fastener assortment, type 7",Miscellaneous,kg
+CAT-0768,"Miscellaneous fastener assortment, type 8",Miscellaneous,kg
+CAT-0769,"Miscellaneous fastener assortment, type 9",Miscellaneous,kg
+CAT-0770,"Miscellaneous fastener assortment, type 10",Miscellaneous,kg
+CAT-0771,"Miscellaneous fastener assortment, type 11",Miscellaneous,kg
+CAT-0772,"Miscellaneous fastener assortment, type 12",Miscellaneous,kg
+CAT-0773,"Miscellaneous fastener assortment, type 13",Miscellaneous,kg
+CAT-0774,"Miscellaneous fastener assortment, type 14",Miscellaneous,kg
+CAT-0775,"Miscellaneous fastener assortment, type 15",Miscellaneous,kg
+CAT-0776,"Miscellaneous fastener assortment, type 16",Miscellaneous,kg
+CAT-0777,"Miscellaneous fastener assortment, type 17",Miscellaneous,kg
+CAT-0778,"Miscellaneous fastener assortment, type 18",Miscellaneous,kg
+CAT-0779,"Miscellaneous fastener assortment, type 19",Miscellaneous,kg
+CAT-0780,"Miscellaneous fastener assortment, type 20",Miscellaneous,kg
+CAT-0781,"Miscellaneous fastener assortment, type 21",Miscellaneous,kg
+CAT-0782,"Miscellaneous fastener assortment, type 22",Miscellaneous,kg
+CAT-0783,"Miscellaneous fastener assortment, type 23",Miscellaneous,kg
+CAT-0784,"Miscellaneous fastener assortment, type 24",Miscellaneous,kg
+CAT-0785,"Miscellaneous fastener assortment, type 25",Miscellaneous,kg
+CAT-0786,"Miscellaneous fastener assortment, type 26",Miscellaneous,kg
+CAT-0787,"Miscellaneous fastener assortment, type 27",Miscellaneous,kg
+CAT-0788,"Miscellaneous fastener assortment, type 28",Miscellaneous,kg
+CAT-0789,"Miscellaneous fastener assortment, type 29",Miscellaneous,kg
+CAT-0790,"Miscellaneous fastener assortment, type 30",Miscellaneous,kg
+CAT-0791,"Miscellaneous fastener assortment, type 31",Miscellaneous,kg
+CAT-0792,"Miscellaneous fastener assortment, type 32",Miscellaneous,kg
+CAT-0793,"Miscellaneous fastener assortment, type 33",Miscellaneous,kg
+CAT-0794,"Miscellaneous fastener assortment, type 34",Miscellaneous,kg
+CAT-0795,"Miscellaneous fastener assortment, type 35",Miscellaneous,kg
+CAT-0796,"Miscellaneous fastener assortment, type 36",Miscellaneous,kg
+CAT-0797,"Miscellaneous fastener assortment, type 37",Miscellaneous,kg
+CAT-0798,"Miscellaneous fastener assortment, type 38",Miscellaneous,kg
+CAT-0799,"Miscellaneous fastener assortment, type 39",Miscellaneous,kg
+CAT-0800,"Miscellaneous fastener assortment, type 40",Miscellaneous,kg

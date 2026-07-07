@@ -1,0 +1,20 @@
+# Matching configuration. The engine must read weights and thresholds from
+# here — never hardcode them in Python.
+
+matching:
+  # How many candidates to persist per source record.
+  top_k: 5
+  # Relative weights of the scoring signals; the engine combines them into
+  # a composite confidence score in [0, 1].
+  weights:
+    string_similarity: 0.60
+    category_agreement: 0.25
+    unit_compatibility: 0.15
+
+tiers:
+  # Both thresholds are inclusive lower bounds:
+  #   score >= accept_min                 -> green  (auto-accept)
+  #   review_min <= score < accept_min    -> yellow (needs human review)
+  #   score < review_min                  -> red    (no acceptable candidate)
+  accept_min: 0.85
+  review_min: 0.60

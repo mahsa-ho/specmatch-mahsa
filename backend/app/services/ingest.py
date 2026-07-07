@@ -1,0 +1,86 @@
+"""Ingest fixture CSVs into the database.
+
+Runs at application startup, and can be run manually:
+
+    python -m app.services.ingest
+"""
+
+import csv
+import logging
+import sqlite3
+from datetime import datetime, timezone
+from pathlib import Path
+
+from app.core.db import get_conn, init_schema
+from app.core.errors import DependencyError
+from app.core.logging import configure_logging, log_event
+
+logger = logging.getLogger(__name__)
+
+REPO_ROOT = Path(__file__).resolve().parents[3]
+SOURCE_CSV = REPO_ROOT / "data" / "source_records.csv"
+CATALOG_CSV = REPO_ROOT / "data" / "catalog.csv"
+
+
+def _read_csv(path: Path) -> list[dict[str, str]]:
+    try:
+        with path.open("r", encoding="utf-8", newline="") as fh:
+            return list(csv.DictReader(fh))
+    except OSError as exc:
+        log_event(
+            logger,
+            logging.ERROR,
+            "dependency_failure",
+            dependency="filesystem",
+            path=str(path),
+            error=str(exc),
+        )
+        raise DependencyError(f"could not read fixture file: {path}") from exc
+
+
+def ingest_catalog(conn: sqlite3.Connection) -> int:
+    rows = _read_csv(CATALOG_CSV)
+    conn.executemany(
+        "INSERT OR REPLACE INTO catalog (catalog_id, description, category, unit)"
+        " VALUES (:catalog_id, :description, :category, :unit)",
+        rows,
+    )
+    conn.commit()
+    return len(rows)
+
+
+def ingest_records(conn: sqlite3.Connection) -> int:
+    rows = _read_csv(SOURCE_CSV)
+    now = datetime.now(timezone.utc).isoformat()
+    conn.executemany(
+        "INSERT INTO records (record_id, raw_text, category, unit, quantity, ingested_at)"
+        " VALUES (:record_id, :raw_text, :category, :unit, :quantity, :ingested_at)",
+        [{**row, "ingested_at": now} for row in rows],
+    )
+    conn.commit()
+    return len(rows)
+
+
+def run_ingest(conn: sqlite3.Connection | None = None) -> None:
+    owned = conn is None
+    if conn is None:
+        conn = get_conn()
+    try:
+        init_schema(conn)
+        n_catalog = ingest_catalog(conn)
+        n_records = ingest_records(conn)
+        log_event(
+            logger,
+            logging.INFO,
+            "ingest_completed",
+            catalog_rows=n_catalog,
+            record_rows=n_records,
+        )
+    finally:
+        if owned:
+            conn.close()
+
+
+if __name__ == "__main__":
+    configure_logging()
+    run_ingest()

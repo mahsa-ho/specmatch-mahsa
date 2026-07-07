@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}SpecMatch{% endblock %}</title>
+  <style>
+    :root {
+      --bg: #101216; --surface: #181b21; --border: #2a2e37;
+      --text: #e6e7ea; --muted: #9aa0ab; --accent: #6bc1ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font: 15px/1.6 system-ui, sans-serif;
+    }
+    header {
+      display: flex; align-items: baseline; gap: 24px;
+      padding: 16px 24px; border-bottom: 1px solid var(--border);
+    }
+    header h1 { font-size: 1.1rem; margin: 0; }
+    header nav a { color: var(--muted); margin-right: 16px; text-decoration: none; }
+    header nav a:hover, header nav a.active { color: var(--accent); }
+    main { max-width: 1100px; margin: 0 auto; padding: 24px; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--border); }
+    th { color: var(--muted); font-weight: 600; }
+    code { font-family: ui-monospace, monospace; font-size: 0.85em; }
+    select, button {
+      background: var(--surface); color: var(--text);
+      border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px;
+    }
+    .toolbar { display: flex; gap: 12px; align-items: center; margin-bottom: 16px; }
+    .muted { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SpecMatch</h1>
+    <nav>
+      <a href="/" {% if request.url.path == '/' %}class="active"{% endif %}>Records</a>
+      <a href="/review" {% if request.url.path == '/review' %}class="active"{% endif %}>Review</a>
+    </nav>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>
