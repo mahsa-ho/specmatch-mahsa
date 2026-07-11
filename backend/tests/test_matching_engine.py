@@ -33,3 +33,37 @@ def test_matching_engine_matches_all_records(client):
     health = client.get("/health").json()
     assert health["matched"] == 150
     assert sum(health["tiers"].values()) == 150
+    from datetime import datetime, timezone
+
+
+def test_obvious_concrete_record_lands_green_or_yellow(client):
+    record = RecordOut(
+        record_id="TEST-CONC-001",
+        raw_text="CONC RM 30MPa w/ 25% FA",
+        category="Concrete",
+        unit="m3",
+        quantity=1,
+        ingested_at=datetime.now(timezone.utc),
+    )
+
+    result = LexicalMatchingEngine().match_record(record)
+
+    assert result.candidates
+    assert result.tier.value in {"green", "yellow"}
+    assert "concrete" in result.candidates[0].description.lower()
+
+
+def test_unknown_material_lands_red(client):
+    record = RecordOut(
+        record_id="TEST-RED-001",
+        raw_text="ZZZ UNKNOWN RANDOM MATERIAL QQQ",
+        category="Unknown",
+        unit="banana",
+        quantity=1,
+        ingested_at=datetime.now(timezone.utc),
+    )
+
+    result = LexicalMatchingEngine().match_record(record)
+
+    assert result.candidates
+    assert result.tier.value == "red"
