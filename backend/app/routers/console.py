@@ -28,7 +28,7 @@ def record_table(request: Request, category: str | None = Query(default=None)):
                 " WHERE category IS NOT NULL AND category != '' ORDER BY category"
             ).fetchall()
         ]
-        if category is not None:
+        if category and category != "All categories":
             rows = conn.execute(
                 "SELECT record_id, raw_text, category, unit, quantity FROM records"
                 " WHERE category = ? ORDER BY id",
