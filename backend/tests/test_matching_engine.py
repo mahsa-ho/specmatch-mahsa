@@ -16,8 +16,8 @@ def test_matching_engine_scores_and_persists_one_record(client):
     assert 0.0 <= result.candidates[0].score <= 1.0
     assert result.tier in {"green", "yellow", "red"}
 
-    health = client.get("/health").json()
-    assert health["matched"] == 1
+    matches = client.get("/matches", params={"limit": 150}).json()["items"]
+    assert any(item["record_id"] == record.record_id for item in matches)
 
 
 def test_matching_engine_matches_all_records(client):
@@ -26,6 +26,9 @@ def test_matching_engine_matches_all_records(client):
 
     assert len(results) == 150
     assert all(result.candidates for result in results)
+
+    matches = client.get("/matches", params={"limit": 150}).json()["items"]
+    assert len(matches) == 150
 
     health = client.get("/health").json()
     assert health["matched"] == 150
