@@ -43,7 +43,7 @@ def test_obvious_concrete_record_lands_green_or_yellow(client):
         raw_text="CONC RM 30MPa w/ 25% FA",
         category="Concrete",
         unit="m3",
-        quantity=1,
+        quantity="1",
         ingested_at=datetime.now(timezone.utc),
     )
 
@@ -60,7 +60,7 @@ def test_unknown_material_lands_red(client):
         raw_text="ZZZ UNKNOWN RANDOM MATERIAL QQQ",
         category="Unknown",
         unit="banana",
-        quantity=1,
+        quantity="1",
         ingested_at=datetime.now(timezone.utc),
     )
 
