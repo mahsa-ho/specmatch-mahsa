@@ -15,3 +15,9 @@ def test_mid_score_is_yellow():
 
 def test_low_score_is_red():
     assert assign_tier(0.30, THRESHOLDS) is Tier.red
+def test_accept_threshold_boundary_is_green():
+    assert assign_tier(0.85, THRESHOLDS) is Tier.green
+
+
+def test_review_threshold_boundary_is_yellow():
+    assert assign_tier(0.60, THRESHOLDS) is Tier.yellow
