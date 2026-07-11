@@ -1,3 +1,4 @@
+from app.services.matching.engine import LexicalMatchingEngine
 def test_record_table_renders(client):
     resp = client.get("/")
     assert resp.status_code == 200

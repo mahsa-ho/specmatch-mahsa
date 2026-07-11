@@ -1,10 +1,114 @@
 {% extends "base.html" %}
-{% block title %}Review · SpecMatch{% endblock %}
+
 {% block content %}
-<h2>Review panel</h2>
-<p class="muted">
-  Not implemented yet (Task 5): work the yellow/red queues — tier counts,
-  top candidates with per-signal score breakdowns, and
-  accept / override / reject actions persisted through the API.
-</p>
+<section class="panel">
+  <h1>Review Console</h1>
+
+  <div class="summary">
+    <h2>Tier counts</h2>
+    <p>
+      <a href="/review">All</a>
+      |
+      <a href="/review?tier=green">Green: {{ tier_counts.green }}</a>
+      |
+      <a href="/review?tier=yellow">Yellow: {{ tier_counts.yellow }}</a>
+      |
+      <a href="/review?tier=red">Red: {{ tier_counts.red }}</a>
+    </p>
+    <p>Current filter: <strong>{{ selected_tier }}</strong></p>
+  </div>
+
+  {% if not matches %}
+    <p>No matches to review.</p>
+  {% endif %}
+
+  {% for match in matches %}
+    <article class="review-card">
+      <h2>{{ match.record_id }} — {{ match.tier }}</h2>
+
+      {% if match.review %}
+        <p>
+          <strong>Persisted review:</strong>
+          {{ match.review.action }}
+          {% if match.review.catalog_id %}
+            → {{ match.review.catalog_id }}
+          {% endif %}
+          {% if match.review.note %}
+            — {{ match.review.note }}
+          {% endif %}
+        </p>
+      {% endif %}
+
+      <p><strong>Source text:</strong> {{ match.source_text }}</p>
+
+      <h3>Candidates</h3>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Catalog ID</th>
+            <th>Description</th>
+            <th>Score</th>
+            <th>Signals</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for candidate in match.candidates %}
+            <tr>
+              <td>{{ candidate.catalog_id }}</td>
+              <td>{{ candidate.description }}</td>
+              <td>{{ candidate.score }}</td>
+              <td>
+                {% for name, value in candidate.signals.items() %}
+                  <div>{{ name }}: {{ value }}</div>
+                {% endfor %}
+              </td>
+              <td>
+                {% if loop.first %}
+                  <button onclick="submitReview('{{ match.record_id }}', 'accept', '{{ candidate.catalog_id }}')">
+                    Accept top
+                  </button>
+                {% endif %}
+
+                <button onclick="submitReview('{{ match.record_id }}', 'override', '{{ candidate.catalog_id }}')">
+                  Override
+                </button>
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <button onclick="submitReview('{{ match.record_id }}', 'reject', null)">
+        Reject
+      </button>
+    </article>
+  {% endfor %}
+</section>
+
+<script>
+async function submitReview(recordId, action, catalogId) {
+  const note = window.prompt("Optional review note:", "") || null;
+
+  const response = await fetch(`/matches/${recordId}/review`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      action: action,
+      catalog_id: catalogId,
+      note: note
+    })
+  });
+
+  if (!response.ok) {
+    alert("Review action failed.");
+    return;
+  }
+
+  window.location.reload();
+}
+</script>
 {% endblock %}
